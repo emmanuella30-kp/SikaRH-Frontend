@@ -10,9 +10,9 @@ npm run dev        # http://localhost:5173
 npm run build      # vérification TypeScript + build de production
 ```
 
-## Comptes de démonstration
+## Comptes de démonstration 
 
-| Rôle    | Email                    | Mot de passe |
+| Rôle    | Email                    | Mot de passe | 
 |---------|--------------------------|--------------|
 | Employé | k.mensah@entreprise.bj   | employe123   |
 | RH      | rh@entreprise.bj         | rh123        |
@@ -77,7 +77,7 @@ vérifier la géolocalisation, hacher les mots de passe et conserver le journal 
 
 Les mentions légales imprimées sur les PDF se règlent dans `src/config/entreprise.ts`.
 
-## Structure
+## Structure 
 
 ```
 src/
@@ -87,8 +87,8 @@ src/
   components/form/ Champs maison : TextInput, PasswordInput, SearchInput, NumberInput, Textarea,
                    Select (liste déroulante avec recherche), DatePicker, TimePicker, Checkbox, Toggle, RadioGroup
   components/ui/   Dialog (alertes et confirmations — aucun alert/confirm natif), ActionMenu (menu ⋮), Modal…
-  components/      Layout (menu par rôle, notifications), éléments RH
+  components/      Layout (menu par rôle, notifications), éléments RH 
   pages/employe/   Espace employé (maquettes d'origine) + modales
   pages/rh/        Espace RH + modales
-  config/          Informations légales de l'entreprise
+  config/          Informations légales de l'entreprise 
 ```
